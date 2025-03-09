@@ -8,7 +8,7 @@ const LocationSelector = ({ onCitySelect }) => {
   const [selectedCity, setSelectedCity] = useState(null);
 
   return (
-    <div className="w-full max-w-md p-4 bg-white dark:bg-gray-800 shadow-lg rounded-lg">
+    <div className="w-full p-4 bg-white dark:bg-gray-800 shadow-lg rounded-lg">
       {/* Country Selection */}
       <div className="mb-3">
         <label className="block text-gray-700 dark:text-gray-200 font-medium mb-1">
